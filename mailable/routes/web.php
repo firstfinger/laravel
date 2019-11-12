@@ -1,4 +1,5 @@
 <?php
+use App\Mail\OrderShipped;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,5 +13,6 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    Mail::send(new OrderShipped);
+
 });
