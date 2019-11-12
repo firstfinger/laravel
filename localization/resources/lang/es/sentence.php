@@ -3,5 +3,5 @@
 // sentence.php
 
 return [
-  'welcome' => 'Bienvenido amigo'
+  'hobby' => 'Me encanta codificar'
 ];

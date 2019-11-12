@@ -11,8 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('lang/{locale}', 'HomeController@lang');
+
+Route::group(
+    [
+        'prefix' => LaravelLocalization::setLocale(),
+        'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
+    ], function(){
+
+        Route::get('/', function () {
+            return view('welcome');
+        });
+    });

@@ -21,6 +21,7 @@ class ComposerStaticInit4ff889e1d7365ccc8d2af63c54f096be
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '0d8253363903f0ac7b0978dcde4e28a0' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/helpers.php',
+        'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -125,6 +126,7 @@ class ComposerStaticInit4ff889e1d7365ccc8d2af63c54f096be
         'C' => 
         array (
             'Cron\\' => 5,
+            'Collective\\Html\\' => 16,
             'Carbon\\' => 7,
         ),
         'B' => 
@@ -344,6 +346,10 @@ class ComposerStaticInit4ff889e1d7365ccc8d2af63c54f096be
         array (
             0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
         ),
+        'Collective\\Html\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravelcollective/html/src',
+        ),
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
@@ -376,6 +382,10 @@ class ComposerStaticInit4ff889e1d7365ccc8d2af63c54f096be
             array (
                 0 => __DIR__ . '/..' . '/mockery/mockery/library',
             ),
+            'Mcamara\\LaravelLocalization' => 
+            array (
+                0 => __DIR__ . '/..' . '/mcamara/laravel-localization/src',
+            ),
         ),
     );
 
@@ -388,10 +398,12 @@ class ComposerStaticInit4ff889e1d7365ccc8d2af63c54f096be
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
+        'App\\Http\\Middleware\\Localization' => __DIR__ . '/../..' . '/app/Http/Middleware/Localization.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
@@ -440,6 +452,13 @@ class ComposerStaticInit4ff889e1d7365ccc8d2af63c54f096be
         'Carbon\\Traits\\Units' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Units.php',
         'Carbon\\Traits\\Week' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Week.php',
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
+        'Collective\\Html\\Componentable' => __DIR__ . '/..' . '/laravelcollective/html/src/Componentable.php',
+        'Collective\\Html\\Eloquent\\FormAccessible' => __DIR__ . '/..' . '/laravelcollective/html/src/Eloquent/FormAccessible.php',
+        'Collective\\Html\\FormBuilder' => __DIR__ . '/..' . '/laravelcollective/html/src/FormBuilder.php',
+        'Collective\\Html\\FormFacade' => __DIR__ . '/..' . '/laravelcollective/html/src/FormFacade.php',
+        'Collective\\Html\\HtmlBuilder' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlBuilder.php',
+        'Collective\\Html\\HtmlFacade' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlFacade.php',
+        'Collective\\Html\\HtmlServiceProvider' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlServiceProvider.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
         'Cron\\DayOfMonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/DayOfMonthField.php',
@@ -1964,6 +1983,24 @@ class ComposerStaticInit4ff889e1d7365ccc8d2af63c54f096be
         'League\\Flysystem\\Util\\ContentListingFormatter' => __DIR__ . '/..' . '/league/flysystem/src/Util/ContentListingFormatter.php',
         'League\\Flysystem\\Util\\MimeType' => __DIR__ . '/..' . '/league/flysystem/src/Util/MimeType.php',
         'League\\Flysystem\\Util\\StreamHasher' => __DIR__ . '/..' . '/league/flysystem/src/Util/StreamHasher.php',
+        'Mcamara\\LaravelLocalization\\Commands\\RouteTranslationsCacheCommand' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Commands/RouteTranslationsCacheCommand.php',
+        'Mcamara\\LaravelLocalization\\Commands\\RouteTranslationsClearCommand' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Commands/RouteTranslationsClearCommand.php',
+        'Mcamara\\LaravelLocalization\\Commands\\RouteTranslationsListCommand' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Commands/RouteTranslationsListCommand.php',
+        'Mcamara\\LaravelLocalization\\Exceptions\\SupportedLocalesNotDefined' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Exceptions/SupportedLocalesNotDefined.php',
+        'Mcamara\\LaravelLocalization\\Exceptions\\UnsupportedLocaleException' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Exceptions/UnsupportedLocaleException.php',
+        'Mcamara\\LaravelLocalization\\Facades\\LaravelLocalization' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Facades/LaravelLocalization.php',
+        'Mcamara\\LaravelLocalization\\Interfaces\\LocalizedUrlRoutable' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Interfaces/LocalizedUrlRoutable.php',
+        'Mcamara\\LaravelLocalization\\LanguageNegotiator' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/LanguageNegotiator.php',
+        'Mcamara\\LaravelLocalization\\LaravelLocalization' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/LaravelLocalization.php',
+        'Mcamara\\LaravelLocalization\\LaravelLocalizationServiceProvider' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/LaravelLocalizationServiceProvider.php',
+        'Mcamara\\LaravelLocalization\\Middleware\\LaravelLocalizationMiddlewareBase' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LaravelLocalizationMiddlewareBase.php',
+        'Mcamara\\LaravelLocalization\\Middleware\\LaravelLocalizationRedirectFilter' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LaravelLocalizationRedirectFilter.php',
+        'Mcamara\\LaravelLocalization\\Middleware\\LaravelLocalizationRoutes' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LaravelLocalizationRoutes.php',
+        'Mcamara\\LaravelLocalization\\Middleware\\LaravelLocalizationViewPath' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LaravelLocalizationViewPath.php',
+        'Mcamara\\LaravelLocalization\\Middleware\\LocaleCookieRedirect' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LocaleCookieRedirect.php',
+        'Mcamara\\LaravelLocalization\\Middleware\\LocaleSessionRedirect' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LocaleSessionRedirect.php',
+        'Mcamara\\LaravelLocalization\\Traits\\LoadsTranslatedCachedRoutes' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Traits/LoadsTranslatedCachedRoutes.php',
+        'Mcamara\\LaravelLocalization\\Traits\\TranslatedRouteCommandContext' => __DIR__ . '/..' . '/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Traits/TranslatedRouteCommandContext.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\Legacy\\TestListenerForV5' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/Legacy/TestListenerForV5.php',
         'Mockery\\Adapter\\Phpunit\\Legacy\\TestListenerForV6' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/Legacy/TestListenerForV6.php',
