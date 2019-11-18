@@ -1,0 +1,234 @@
+
+.carousel-caption {
+
+    z-index: 1;
+    color:#fff;
+    text-align:left;
+    top:50%;
+    left:100%;
+    bottom:auto;
+    -webkit-transform:translate(0, -50%);
+    -ms-transform:translate(0, -50%);
+    transform:translate(0, -50%);
+    }
+.paratop {
+    margin-top: 120px;
+  }
+
+    .right    {
+	border-right: 1px solid grey;
+    }
+    .logo-img {
+    position:absolute;
+    left:10px;
+    top:10px;
+    margin: 0px 15px 15px 0px;
+    }
+
+    .social-img{
+
+      width:33px;
+      height:33px;
+      padding-right: 5px;
+
+    }
+
+
+    .ds-img{
+
+      width:53px;
+      height:53px;
+
+   }
+
+   .sp-img{
+
+    width:100%;
+    height:100%;
+
+   }
+
+
+.sm-img{
+
+width:26px;
+height:26px;
+margin-left: 2px;
+}
+
+.sm-icon{
+
+width:23px;
+height:15px;
+margin-right: 10px;
+}
+.mp-icon{
+
+width:14px;
+height:24px;
+margin-left: 5px;
+margin-right: 10px;
+
+}
+.tl-icon{
+
+width:23px;
+height:15px;
+margin-right: 5px;
+}
+
+.cc-img{
+
+width:264px;
+height:41px;
+margin-left: 400px;
+}
+
+.navbar-default {
+  background-color:#1C2331;
+
+ }
+
+    .product-holder {
+    position: relative;
+    display: block;
+}
+
+.plus-image {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -11px;
+    width:15px;
+    height:15px;
+}
+
+.navbar-nav > li{
+  padding-right:15px;
+}
+
+.container {
+padding-top: 40px;
+padding-bottom: 40px;
+
+}
+.font-grey{
+  color:gray;
+}
+
+.font-lightblue{
+  color:#00BFFF;
+}
+.bg-red{
+  background-color: red;
+}
+.box{
+  width: 100%;
+  background-size: cover;
+  display: table;
+  background-image: url(/img/webbanner3.png);
+}
+
+.box2{
+  width: 100%;
+  height: 40%;
+  background-image: url(/img/fazartgreyscale.png);
+  background-color: #2B3856;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 20%;
+
+  position: relative;
+}
+
+.box3{
+  width: 100%;
+  background-size: cover;
+  display: table;
+  background-image: url(/img/webbanner2-2.png) !important;
+}
+
+.box4{
+  width: 100%;
+  background-size: cover;
+  display: table;
+  background-image: url(/img/webbanner4.png);
+}
+.box5{
+  width: 100%;
+  background-size: cover;
+  display: table;
+  background-color: #333;
+
+}
+
+.box6{
+  width: 100%;
+  background-size: cover;
+  display: table;
+  background-color: #0D1944;
+
+}
+
+
+
+.ds-border-right {
+
+  border-right: 1px solid grey;
+}
+.ds-border-top {
+
+  border-top: 1px solid grey;
+
+}
+
+.contactus-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.row-btm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-btm {
+  flex: 1 0 18%; /* The important bit. This percentage decides your columns.
+ The percent can be px. It just represents your minimum starting width.
+  */
+  margin: 5px;
+  background: tomato;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+    background-color: black;
+
+}
+
+.db-color{
+    color: #00BFFF;
+}
+
+.font-grey{
+    color: grey;
+}
+
+@media only screen and (max-width: 768px) {
+.navbar{
+    justify-content: flex-end;
+}
+
+}
+
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
