@@ -16,7 +16,7 @@
     <link href="/css/global.css{{ config('app.link_version') }}" type="text/css" rel="stylesheet" />
     <link href="/css/plugin/bootstrap.min.css{{ config('app.link_version') }}" type="text/css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+
     <!-- Styles End -->
 
     <!-- Script -->
@@ -50,7 +50,7 @@
                                 <h1 class="title">IDEAS </h1>
                                 <h1 class="title">INTO REALITY</h1>
                                 <p class="ml-2">@fazartdesign</p>
-                                <button type="button" class="btn-start"> START NOW!</button>
+                                <button type="button" class="btn-start"><small> START NOW! </small></button>
                         </div>
                     </div>
 
@@ -448,5 +448,5 @@
         </div>
     </div>
 </body>
-@include('components.footer')
+    @include('components.footer')
 </html>
